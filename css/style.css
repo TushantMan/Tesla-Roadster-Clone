@@ -239,37 +239,37 @@ section  .topic{
     text-align: justify;
     letter-spacing: 10px;
 }
-.specifications .specifications-details .experience{
+.specifications .specifications-details .price{
   display: flex;
   align-items: center;
   margin: 0 10px;
 }
-.specifications-details .experience .num{
+.specifications-details .price .num{
   color: #0E2431;
   font-size: 55px;
 }
-.specifications-details .experience .exp{
+.specifications-details .price .bp{
   color: #0E2431;
   margin-left: 20px;
   font-size: 18px;
   font-weight: 500;
   margin: 0 6px;
 }
-.specifications-details .boxes{
+.specifications-details .sq-containers{
   width: 65%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.specifications-details .box{
+.specifications-details .sq{
   width: calc(100% / 2 - 20px);
   margin: 20px 0;
 }
-.specifications-details .boxes .topic{
+.specifications-details .sq-containers .topic{
   font-size: 20px;
   color: #e82127;
 }
-.specifications-details .boxes .per{
+.specifications-details .sq-containers .performance{
   font-size: 50px;
   color: #e82127;
 }
@@ -411,7 +411,7 @@ footer img{
 }
 
 @media (max-width: 1270px){
-  .specifications-details .boxes{
+  .specifications-details .sq-containers{
     width: 45%;
   }
 }
@@ -421,7 +421,7 @@ footer img{
   }
 }
 @media (max-width: 1140px) {
-  .specifications-details .boxes .per{
+  .specifications-details .sq-containers .performance{
     font-size: 35px;
   }
 }
@@ -439,14 +439,14 @@ footer img{
     width: 90%;
     margin: 40px 0;
   }
-  .features .boxes .box{
+  .features .sq-containers .sq{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
 }
 @media (max-width: 900px) {
 
-  .specifications-details .boxes .per{
+  .specifications-details .sq-containers .performance{
     font-size: 35px;
   }
   .bottom-left {
@@ -527,12 +527,12 @@ footer img{
     width: 100%;
     margin-bottom: 50px;
   }
-  .specifications-details .boxes{
+  .specifications-details .sq-containers{
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .features .boxes .box{
+  .features .sq-containers .sq{
     margin: 20px 0;
     width: 100%;
   }
@@ -552,7 +552,7 @@ footer img{
   }
 }
 @media (max-width: 500px){
-  .specifications-details .experience .num{
+  .specifications-details .price .num{
     font-size: 40px;
   }
   .home .text-two{

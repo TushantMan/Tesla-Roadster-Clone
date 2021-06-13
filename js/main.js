@@ -6,8 +6,8 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.left, .right,
-            .experience, .text,
-            .title, .boxes,
+            .price, .text,
+            .title, .sq-containers,
             .bottom-left, .bottom-right`, {
     interval: 100
 })
