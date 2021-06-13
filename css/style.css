@@ -222,6 +222,10 @@ section  .topic{
 .specifications{
   background: #ffffff;
 }
+.specifications video{
+  height: 100%;
+  width: 100%;
+}
 .specifications .content{
   padding: 30px 0;
 }
