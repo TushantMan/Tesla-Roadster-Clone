@@ -5,7 +5,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.left, .right,
-            .price,
+            .price, .text,
             .title, .sq-containers,
             .bottom-left, .bottom-right`, {
     interval: 100
