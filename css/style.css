@@ -309,6 +309,16 @@ section .topic {
   margin: 0;
   padding: 0;
   height: 100%;
+  background: #000;
+  color: #fff;
+}
+.features .title span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+  padding-top: 20px;
 }
 .features .title {
   font-family: gothambook;
