@@ -9,7 +9,7 @@
 - Compatible with all devices of different screen sizes and with a beautiful and pleasant user interface.
 
 
-![tesla-website](assets/img/preview.png)
+![tesla-website](img/preview.png)
 
 I don't own the photos used in this site. Tesla, Inc. has all images right reserved
 
